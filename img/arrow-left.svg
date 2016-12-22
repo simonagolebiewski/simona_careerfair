@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="11px" viewBox="0 0 25 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bean-Resume" transform="translate(-75.000000, -97.000000)" fill="#4F40FF">
+            <g id="back-button" transform="translate(87.500000, 102.500000) scale(-1, 1) translate(-87.500000, -102.500000) translate(65.000000, 80.000000)">
+                <path d="M30,17.5 L35,22.5 L30,27.5 L30,17.5 Z M10,21.5 L30,21.5 L30,23.5 L10,23.5 L10,21.5 Z" id="arrow-left"></path>
+            </g>
+        </g>
+    </g>
+</svg>

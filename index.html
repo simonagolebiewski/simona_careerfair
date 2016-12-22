@@ -3,56 +3,164 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-	<title>Simona Golebiewki - Under Construction</title>
-	<meta name="description" content="Front End Developer Seeking Full Time Work">
+	<title>Simona Golebiewki - Front End Developer</title>
+	<meta name="description" content="Recent graduate of Grand Circus' Front End Bootcap">
 	<link rel="stylesheet" type="text/css" href="css/fix.css">
+  <link rel="stylesheet" href="css/flickity.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
-	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css" >
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 </head>
 
 <body>
+	<header>
+    <nav class="navigation container">
+      <ul>
+        <a href="resume.html"><li>Resume</li></a>
+        <a href="#slack"><li>Contact</li></a>
+      </ul>
+    </nav>
+    <div class="avatar">
+    </div>
+	</header>
+
 	<section id="intro" class="container">
 		<div class="row">
-			<div class="col-xs-offset-2 col-xs-8">
-				<div class="avatar">
-					<img src="img/avatar@2x.png" />
-				</div>
-				<h1>👋 Hello, my name is Simona Golebiewski.</h1>
-				<p>
-					I’m a Registered Nurse turned Front End Developer recently graduated from the Grand Circus Javascript Bootcamp in Detroit, MI. My portfolio is currently under construction. Please check out the following links in the meantime.</p>
+			<div class="col-xs-offset-1 col-xs-10">
+				<h1>Registered Nurse turned Front End Developer</h1>
+				<p class="frontpage">
+					I recently graduated from the Grand Circus Bootcamp in Detroit and am currently looking for full time work.
+				</p>
 			</div>
 	  </div>
 	</section>
 
 
-		<div class="skew-top">
+<!--
+  <div class="ipad">
+    <div class="mask">
 
     </div>
-
-		<div class="skew-bottom">
-
-		</div>
-
-		<div class="links">
-			<a href="https://github.com/simonagolebiewski" target="_blank" title="Github" class="link hvr-grow-shadow">
-				<i class="icon ion-social-github"></i>
-			</a>
-			<a href="https://www.linkedin.com/in/simonagolebiewski" target="_blank" title="LinkedIn" class="link hvr-grow-shadow">
-				<i class="icon ion-social-linkedin"></i>
-			</a>
-			<a href="mailto:colfescus@yahoo.com" target="_blank" title="Email" class="link hvr-grow-shadow">
-				<i class="icon ion-ios-email"></i>
-			</a>
-		</div>
-
-		<section id="footer">
-			<p>
-				Hope to speak with you soon!
-			</p>
-		</section>
+  </div> -->
 
 
 
+
+
+<div class="gallery js-flickity">
+  <div class="gallery-cell slide-1">
+    <div class="outer">
+      <div class="inner">
+
+				<div class="ipad">
+          <div class="mask rlp">
+						<div class="direct-link">
+						<a href="http://www.roxanaliontephotography.com" target="_blank" class="link-icon"></a>
+            <a href="http://www.roxanaliontephotography.com" target="_blank" class="heading">Roxana Lionte Photography</a>
+						<p>
+							This was my first website, completed before joining the Grand Circus JavaScript Bootcamp. I used flexbox grid, Swipebox - a jQuery plugin, and an animated modal.
+						</p>
+						</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="gallery-cell slide-2">
+    <div class="outer">
+      <div class="inner">
+
+        <div class="ipad">
+          <div class="mask recipe">
+						<div class="direct-link">
+						<a href="http://recipecook.herokuapp.com" target="_blank" class="link-icon"></a>
+						<a href="http://recipecook.herokuapp.com" target="_blank" class="heading">Recipe Cook</a>
+						<p>
+							Recipe Cook is an application built in angularJS using the Spoonacular API to retrieve popular and custom recipes. The purpose is for the convenience of the user to find recipes with a few ingredients they already have at home. This was my final project at Grand Circus completed with three other colleagues.
+						</p>
+						</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="gallery-cell slide-3">
+    <div class="outer">
+      <div class="inner">
+
+				<div class="ipad">
+					<div class="mask doug">
+						<div class="direct-link">
+						<a href="https://simonagolebiewski.github.io/Lab13/" target="_blank" class="link-icon"></a>
+						<a href="https://simonagolebiewski.github.io/Lab13/" target="_blank" class="heading">Doug Funnie’s World</a>
+						<p>
+							Using angular directives, modules, and controllers, I created a random word simulator that displays quotes from the 1990s cartoon show “Doug”.
+						</p>
+						</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section id="slack">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-offset-2 col-xs-8 box">
+        <p>
+          Get in touch! Your message will be posted in my private Slack channel. GIFS are encouraged!
+        </p>
+				<form accept-charset="UTF-8" action="https://formkeep.com/f/e3f9e18e31df" method="POST">
+			  <input type="hidden" name="utf8" value="✓">
+
+				<div class="material-form-field">
+					<input type="email" required name="text" id="email-address"/>
+					<label class="material-form-field-label" for="field-text">Email</label>
+				</div>
+
+				<div class="material-form-field" data-validationError="This field is invalid">
+					<input type="text" required name="text-invalid" id="field-text-invalid"/>
+					<label class="material-form-field-label" for="field-text-invalid">Your Message</label>
+				</div>
+
+			  <button type="submit">Submit</button>
+				</form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="icons">
+    <a class="hvr-grow-shadow" href="mailto:colfescus@yahoo.com"><i class="ion-ios-email-outline"></i></i></a>
+    <a class="hvr-grow-shadow" target="_blank" href="https://www.facebook.com/scolfescu"><i class="ion-social-facebook-outline"></i></a>
+    <a class="hvr-grow-shadow" target="_blank" href="https://github.com/simonagolebiewski"><i class="ion-social-github-outline"></i></a>
+    <a class="hvr-grow-shadow" target="_blank" href="https://www.linkedin.com/in/simonagolebiewski"><i class="ion-social-linkedin-outline"></i></a>
+    <p>tel: 586-321-3463</p>
+
+  </div>
+</footer>
+
+
+
+
+<script
+		  src="https://code.jquery.com/jquery-2.2.4.min.js"
+		  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+		  crossorigin="anonymous">
+</script>
+<script src="js/flickity.pkgd.min.js"></script>
+<script>
+$('.main-carousel').flickity({
+  // options
+  cellAlign: 'left',
+  contain: true
+});
+</script>
 </body>
 </html>

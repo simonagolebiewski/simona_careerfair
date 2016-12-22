@@ -1,0 +1,222 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #F6F9FC;
+}
+
+h1 {
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 940px;
+}
+
+#resume {
+  position: relative;
+  top: 40px;
+}
+
+a.back-to-home {
+  background: #FFFFFF;
+  box-shadow: 0 12px 23px 0 rgba(0,0,0,0.05), 0 2px 7px 0 rgba(0,21,64,0.14);
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  position: absolute;
+  left: -65px;
+  background-image: url("../img/arrow-left.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.sidebar {
+  background: #4F40FF;
+  border-radius: 3px;
+  display: inline-block;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.resume-card {
+  background: #FFFFFF;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.07), 0 15px 35px 0 rgba(49,49,93,0.10);
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.resume-card h1 {
+  margin-bottom: 20px;
+}
+
+.resume-card p {
+  color: #788390;
+  margin-bottom: 20px;
+}
+
+.mrg-bottom--large {
+  margin-bottom: 20px;
+}
+
+.mrg-top--medium {
+  margin-top: 7px;
+}
+
+p.title {
+  font-size: 18px;
+  color: #1D1D1F;
+  line-height: 21px;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+.resume-card span {
+  color: #4F40FF;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: 500;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.type {
+  background: #F6F9FC;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.summary {
+  background-image: url("../img/summary.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.education {
+  background-image: url("../img/education.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.experience {
+  background-image: url("../img/experience.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.last {
+  margin-bottom: 0;
+}
+
+.avatar {
+  height: 180px;
+  width: 180px;
+  border-radius: 90px;
+  background-image: url("../img/simona-resume@2x.png");
+  background-size: cover;
+  margin: 20px auto;
+}
+
+.name {
+  color: #fff;
+  text-align: center;
+}
+
+.skills {
+  color: #fff;
+  margin: 10px;
+}
+
+.skill {
+  padding: 10px;
+  border: 1px solid #7266FF;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.icons {
+  text-align: center;
+  font-size: 40px;
+}
+
+.icons a {
+  margin-right: 20px;
+}
+
+.icons a:hover {
+  color: #606060;
+}
+
+
+/* Grow Shadow */
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+footer p {
+  font-size: 15px;
+}
+
+footer {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+/* sm */
+@media only screen and (min-width: 48em) {
+
+}
+
+/* md */
+@media only screen and (min-width: 64em) {
+  .sidebar {
+    height: 1070px;
+  }
+}
+
+/* lg */
+@media only screen and (min-width: 75em) {
+
+}

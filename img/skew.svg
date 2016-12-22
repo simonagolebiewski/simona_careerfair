@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="390px" viewBox="0 0 300 390" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>skew</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="skew">
+            <g id="Rectangle">
+                <polygon fill="#D8E9FF" points="0 21.3157895 300 0 300 368.684211 0 390"></polygon>
+                <polygon fill="#4F40FF" points="0 45 300 5 300 345 0 385"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
