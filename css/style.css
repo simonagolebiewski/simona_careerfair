@@ -159,7 +159,14 @@ p {
 .slide-3 .inner {
   background: transparent;
 }
+
 .slide-3 .outer {
+  background: transparent;
+}
+.slide-4 .inner {
+  background: transparent;
+}
+.slide-4 .outer {
   background: transparent;
 }
 
@@ -207,6 +214,12 @@ p {
   font-size: 26px;
 }
 
+a.inline-link {
+  display: inline;
+  font-size: 17px;
+  text-decoration: underline;
+}
+
 .heading {
   padding: 15px;
 }
@@ -226,7 +239,7 @@ p {
   border-radius: 25px;
   margin: auto;
   display: block;
-  margin-top: 80px;
+  margin-top: 50px;
   background-image: url("../img/link-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -242,6 +255,10 @@ p {
 
 .content {
   transform: skewY(2deg);
+}
+.pupmunch {
+  background: url("../img/pupmunch.png") #fff;
+  background-size: cover;
 }
 .rlp {
   background: url("../img/RLP@2x.png") #fff;
@@ -442,6 +459,12 @@ footer {
   }
   .slide-3 .outer {
     background: rgba(183, 208, 245, 0.20);
+  }
+  .slide-4 .inner {
+    background: #00a9ff;
+  }
+  .slide-4 .outer {
+    background: rgba(2, 143, 214, 0.20);
   }
 
   .flickity-prev-next-button.next {
