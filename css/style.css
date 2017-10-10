@@ -256,6 +256,10 @@ a.inline-link {
 .content {
   transform: skewY(2deg);
 }
+.animatedshorts {
+  background: url("../img/animatedshorts.png") #fff;
+  background-size: cover;
+}
 .pupmunch {
   background: url("../img/pupmunch.png") #fff;
   background-size: cover;
@@ -466,7 +470,12 @@ footer {
   .slide-4 .outer {
     background: rgba(2, 143, 214, 0.20);
   }
-
+  .slide-5 .inner {
+    background: #7942b7;
+  }
+  .slide-5 .outer {
+    background: #aa69f4;
+  }
   .flickity-prev-next-button.next {
     right: 20%;
   }
